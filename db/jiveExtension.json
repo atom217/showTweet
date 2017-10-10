@@ -3,7 +3,7 @@
     "id": "a49d24d2-51bd-40fc-ad8b-9a1458300ea0",
     "uuid": "a49d24d2-51bd-40fc-ad8b-9a1458300ea0",
     "name": "showTweet",
-    "description": "Show twitter feed to the user with respective user name",
+    "description": "Embed twitter timeline widget in tiles.",
     "icon_16": "extension-16.png",
     "icon_48": "extension-48.png",
     "icon_128": "extension-128.png",
