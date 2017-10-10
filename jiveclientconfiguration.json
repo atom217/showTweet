@@ -1,0 +1,66 @@
+{
+    "clientUrl": "http://localhost",
+    "port": "8090",
+    "development" : true,
+	  "clientUrlExcludesPort": true,
+    "logLevel": "DEBUG",
+    "logFile" : "logs/jive-sdk.log",
+    "logFileSize" : 20480,
+    "logFileNumBackups" : 3,
+	  "extensionInfo": {
+		"id": "a49d24d2-51bd-40fc-ad8b-9a1458300ea0",
+		"uuid": "a49d24d2-51bd-40fc-ad8b-9a1458300ea0",
+		"name": "showTweet",
+		"description": "Show twitter feed to the user with respective user name",
+		"icon_16": "extension-16.png",
+		"icon_48": "extension-48.png",
+		"icon_128": "extension-128.png",
+		"releasedOn": "2017-10-09T07:04:25.385Z"
+	},
+	"ext" : {
+		"your-recommended-place" : "to-store-your-app-system-config"
+	},
+	"otherPropertiesToConsider" : {
+		"ignoreExtensionRegistrationSource": true,
+    "packageApps" : false,
+    "skipCreateExtension" : true,
+		"suppressAddonRegistration" : true,
+    "suppressHttpLogging": false,
+    "customServiceLogger": {},
+    "persistence": "mongo",
+    "persistenceInitializer" : {},
+    "suppressMonitoring" : false,
+    "monitoringInterval": 1000,
+    "codeVersionString": "jive",
+    "adminPort" : 8091,
+    "statsdClientConfig": {
+      "host" : "localhost",
+      "port" : 8125,
+      "interval" : 1000,
+      "servicePrefix" : "jive"
+    },
+    "role" : "worker",
+    "scheduler": {},
+		"extensionInfo": {
+			"registerURL": "%serviceURL%/jive/oauth/register",
+			"unregisterURL": "%serviceURL%/jive/oauth/unregister",
+			"redirectURL" : "%serviceURL%/oauth/authorize",
+			"health_url": "%serviceURL%/monitor/health",
+			"config_url": "%serviceURL%/configure",
+			"author" : "Pushpendra Paliwal",
+			"author_affiliation" : "Ionidea Interactive",
+			"author_email" : "pushpendra.paliwal@orange.com",
+			"website_url": "http://www.somedomain.com",
+			"community_url": "https://plazza.orange.com/community/knowledge-management",
+			"support_info": "http://support.somedomain.com",
+			"info_email": "pushpendra.paliwal@orange.com",
+			"tags": "jive,integration,service,addon,twitter",
+			"overview": "overview.html",
+			"install_instructions": "install_instructions.html",
+			"eula_filename": "eula.html",
+			"privacy_policy": "privacy_policy.html",
+			"screen_shots": ["screenshot_1.png","screenshot_2.png"]
+		}
+	},
+	"forPropertyDocumentation" : "https://community.jivesoftware.com/docs/DOC-103487"
+}

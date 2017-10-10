@@ -1,0 +1,27 @@
+{
+    "integrationUser": {
+        "systemAdmin": false
+    },
+    "tiles": [
+        {
+            "displayName": "showTweet",
+            "name": "showTweet",
+            "description": "showTweet",
+            "style": "CUSTOM_VIEW",
+            "displayWidth": "ALL",
+            "dataProviderKey": "internal",
+            "pageTypes": [
+                "PLACE",
+                "USER"
+            ],
+            "icons": {
+                "16": "https://pprod.customer-communities.orange-business.com/resources/statics/11788/extension-16.png",
+                "48": "https://pprod.customer-communities.orange-business.com/resources/statics/11788/extension-48.png",
+                "128": "https://pprod.customer-communities.orange-business.com/resources/statics/11788/extension-128.png"
+            },
+            "config": "/public/tiles/showTweet/configuration.html?ts=1507619148480",
+            "action": "/public/tiles/showTweet/action.html?ts=1507619148480",
+            "view": "/public/tiles/showTweet/view.html?ts=1507619148480"
+        }
+    ]
+}

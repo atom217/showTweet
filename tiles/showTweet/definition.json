@@ -1,0 +1,18 @@
+{
+    "displayName" : "showTweet",
+    "name" : "showTweet",
+    "description" : "showTweet",
+    "style": "CUSTOM_VIEW",
+    "displayWidth" : "ALL",
+    "dataProviderKey": "internal",
+    "pageTypes" : [ "PLACE", "USER" ],
+    "icons": {
+        "16": "https://pprod.customer-communities.orange-business.com/resources/statics/11788/extension-16.png",
+        "48": "https://pprod.customer-communities.orange-business.com/resources/statics/11788/extension-48.png",
+        "128": "https://pprod.customer-communities.orange-business.com/resources/statics/11788/extension-128.png"
+
+    },
+    "config": "/showTweet/configuration.html",
+    "action": "/showTweet/action.html",
+    "view": "/showTweet/view.html"
+}
