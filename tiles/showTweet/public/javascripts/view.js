@@ -33,8 +33,10 @@ $("#canvas").append(final);*/
 function onConfig(tileConfig,tileOptions) {
   console.log('onConfig',tileConfig,tileOptions);
   var x = tileConfig.id;
+  var h = tileConfig.height;
   console.log(x);
-  var code = "<a class='twitter-timeline' data-width='400' data-height='500' href='https://twitter.com/"+x+"?ref_src=twsrc%5Etfw'>Tweets by "+x+"</a><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script>";
+  console.log(h)
+  var code = "<a class='twitter-timeline' data-width='400' data-height="+h+" href='https://twitter.com/"+x+"?ref_src=twsrc%5Etfw'>Tweets by "+x+"</a><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script>";
  console.log(code);
 
 // var final = "Tweets by "+ x;
@@ -44,7 +46,7 @@ function onConfig(tileConfig,tileOptions) {
 var final = $.parseHTML(code);
 console.log(final);
 $("#canvas").append(final);
-gadgets.window.adjustHeight(500);
+gadgets.window.adjustHeight(h);
 } // end function
 
 //************************************************************************

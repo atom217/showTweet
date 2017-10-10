@@ -26,21 +26,23 @@ function onReady(tileConfig,tileOptions,viewer,container) {
   if (!tileConfig["data"]["id"]) {
       tileConfig["data"]["id"] = "orange";
   } // end if
-  /*if (!tileConfig["data"]["height"]) {
-      tileConfig["data"]["height"] = 300;
-  } // end if*/
+  if (!tileConfig["data"]["height"]) {
+      tileConfig["data"]["height"] = 500;
+  } // end if
 
 
 
   $("#twitterID").val( tileConfig["data"]["id"]);
-//  $("#tileHeight").val( tileConfig["data"]["height"]);  
+  $("#tileHeight").val( tileConfig["data"]["height"]);  
   // populate the dialog with existing config value
   //$("#config_string").val( tileConfig["data"]["configString"]);
-
+  var hValue = $("#tileHeight").val();
+      hValue = hValue -(hValue*.1);  
   // update config object after clicking submit
   $("#btn_submit").click( function() {
       tileConfig["data"] = { 
-                          "id" : $("#twitterID").val().trim().replace("@","")
+                          "id" : $("#twitterID").val().trim().replace("@",""),
+                          "height" : hValue
                           }
       /*tileConfig["data"] = { 
                           "id" : $("#twitterID").val(),
