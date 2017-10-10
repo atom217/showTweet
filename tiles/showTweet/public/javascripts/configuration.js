@@ -38,13 +38,13 @@ function onReady(tileConfig,tileOptions,viewer,container) {
   $("#tileHeight").val( tileConfig["data"]["realHeight"]);  
   // populate the dialog with existing config value
   //$("#config_string").val( tileConfig["data"]["configString"]);
-  var hValue = $("#tileHeight").val();
-      hValue = hValue -(hValue*.1);  
+  /*var hValue = $("#tileHeight").val();
+      hValue = hValue -(hValue*.1);  */
   // update config object after clicking submit
   $("#btn_submit").click( function() {
       tileConfig["data"] = { 
                           "id" : $("#twitterID").val().trim().replace("@",""),
-                          "height" : hValue,
+                          "height" : $("#tileHeight").val() - ($("#tileHeight").val()*.1),
                           "realHeight":$("#tileHeight").val()
                           }
       /*tileConfig["data"] = { 

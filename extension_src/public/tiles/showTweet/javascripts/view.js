@@ -35,7 +35,7 @@ function onConfig(tileConfig,tileOptions) {
   var x = tileConfig.id;
   var h = tileConfig.height;
   console.log(x);
-  console.log(h)
+  console.log(h);
   var code = "<a class='twitter-timeline' data-width='400' data-height="+h+" href='https://twitter.com/"+x+"?ref_src=twsrc%5Etfw'>Tweets by "+x+"</a><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script>";
  console.log(code);
 

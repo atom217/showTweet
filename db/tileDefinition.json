@@ -2,7 +2,7 @@
   "87e69f08-8a73-48a5-971d-603d37cb17e3": {
     "displayName": "showTweet",
     "name": "showTweet",
-    "description": "showTweet",
+    "description": "Embed twitter timeline widget in tiles.",
     "style": "CUSTOM_VIEW",
     "displayWidth": "ALL",
     "dataProviderKey": "internal",

@@ -1,7 +1,7 @@
 {
     "displayName" : "showTweet",
     "name" : "showTweet",
-    "description" : "showTweet",
+    "description" : "Embed twitter timeline widget in tiles.",
     "style": "CUSTOM_VIEW",
     "displayWidth" : "ALL",
     "dataProviderKey": "internal",

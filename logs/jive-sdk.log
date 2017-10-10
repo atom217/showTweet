@@ -1,23 +1,47 @@
-[2017-10-10 17:04:51.954] [WARN] jive-sdk - ******************************
-[2017-10-10 17:04:51.956] [WARN] jive-sdk - File persistence is configured.
-[2017-10-10 17:04:51.957] [WARN] jive-sdk - Please note that this should
-[2017-10-10 17:04:51.960] [WARN] jive-sdk - not be used for production!
-[2017-10-10 17:04:51.960] [WARN] jive-sdk - ******************************
-[2017-10-10 17:04:51.961] [DEBUG] jive-sdk - File persistence dir at 'db'
-[2017-10-10 17:04:51.969] [INFO] jive-sdk - Updating definition showTweet
-[2017-10-10 17:04:52.589] [DEBUG] jive-sdk - Route added for showTweet : [GET] /showTweet/configure  ->  D:\RD\showTweeter/tiles/showTweet/backend/routes/configure/get.js
-[2017-10-10 17:04:52.595] [DEBUG] jive-sdk - Creating directory extension_src/public/apps
-[2017-10-10 17:04:52.597] [DEBUG] jive-sdk - Creating directory extension_src/public/tiles
-[2017-10-10 17:04:52.600] [DEBUG] jive-sdk - Copying public to extension_src/public
-[2017-10-10 17:04:52.621] [DEBUG] jive-sdk - Creating directory extension_src/public/services
-[2017-10-10 17:04:52.623] [DEBUG] jive-sdk - Copying public to extension_src/public
-[2017-10-10 17:04:52.643] [DEBUG] jive-sdk - Copying D:\RD\showTweeter/tiles/showTweet/public to extension_src/public/tiles/showTweet
-[2017-10-10 17:04:52.676] [DEBUG] jive-sdk - definitions:
+[2017-10-10 17:31:44.563] [DEBUG] jive-sdk - Zipping extension_src/data/screenshot_2.png to extension.zip  :  data/screenshot_2.png
+[2017-10-10 17:31:44.578] [DEBUG] jive-sdk - Zipping extension_src/i18n/en.properties to extension.zip  :  i18n/en.properties
+[2017-10-10 17:31:44.579] [DEBUG] jive-sdk - Zipping extension_src/i18n/root.properties to extension.zip  :  i18n/root.properties
+[2017-10-10 17:31:44.590] [DEBUG] jive-sdk - Zipping extension_src/public/favicon.ico to extension.zip  :  public/favicon.ico
+[2017-10-10 17:31:44.608] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/bootstrap-30.js to extension.zip  :  public/javascripts/bootstrap-30.js
+[2017-10-10 17:31:44.609] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/bootstrap-30.min.js to extension.zip  :  public/javascripts/bootstrap-30.min.js
+[2017-10-10 17:31:44.611] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/bootstrap.min.js to extension.zip  :  public/javascripts/bootstrap.min.js
+[2017-10-10 17:31:44.625] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/jQuery-1.10.2.js to extension.zip  :  public/javascripts/jQuery-1.10.2.js
+[2017-10-10 17:31:44.633] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/jquery-1.8.3.js to extension.zip  :  public/javascripts/jquery-1.8.3.js
+[2017-10-10 17:31:44.635] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/jquery.base64.min.js to extension.zip  :  public/javascripts/jquery.base64.min.js
+[2017-10-10 17:31:44.648] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap-30.css to extension.zip  :  public/stylesheets/bootstrap-30.css
+[2017-10-10 17:31:44.650] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap.min.css to extension.zip  :  public/stylesheets/bootstrap.min.css
+[2017-10-10 17:31:44.664] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap.css to extension.zip  :  public/stylesheets/bootstrap.css
+[2017-10-10 17:31:44.666] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap-30.min.css to extension.zip  :  public/stylesheets/bootstrap-30.min.css
+[2017-10-10 17:31:44.680] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/style.css to extension.zip  :  public/stylesheets/style.css
+[2017-10-10 17:31:44.686] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/action.html to extension.zip  :  public/tiles/showTweet/action.html
+[2017-10-10 17:31:44.695] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/configuration.html to extension.zip  :  public/tiles/showTweet/configuration.html
+[2017-10-10 17:31:44.696] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/view.html to extension.zip  :  public/tiles/showTweet/view.html
+[2017-10-10 17:31:44.720] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/javascripts/action.js to extension.zip  :  public/tiles/showTweet/javascripts/action.js
+[2017-10-10 17:31:44.722] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/javascripts/configuration.js to extension.zip  :  public/tiles/showTweet/javascripts/configuration.js
+[2017-10-10 17:31:44.731] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/javascripts/main.js to extension.zip  :  public/tiles/showTweet/javascripts/main.js
+[2017-10-10 17:31:44.732] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/javascripts/view.js to extension.zip  :  public/tiles/showTweet/javascripts/view.js
+[2017-10-10 17:31:44.747] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/stylesheets/main.css to extension.zip  :  public/tiles/showTweet/stylesheets/main.css
+[2017-10-10 17:31:44.830] [INFO] jive-sdk - Updated 2 data file(s): [tileDefinition, jiveExtension]
+[2017-10-10 17:31:59.397] [WARN] jive-sdk - ******************************
+[2017-10-10 17:31:59.399] [WARN] jive-sdk - File persistence is configured.
+[2017-10-10 17:31:59.404] [WARN] jive-sdk - Please note that this should
+[2017-10-10 17:31:59.404] [WARN] jive-sdk - not be used for production!
+[2017-10-10 17:31:59.411] [WARN] jive-sdk - ******************************
+[2017-10-10 17:31:59.412] [DEBUG] jive-sdk - File persistence dir at 'db'
+[2017-10-10 17:31:59.427] [INFO] jive-sdk - Updating definition showTweet
+[2017-10-10 17:32:00.020] [DEBUG] jive-sdk - Route added for showTweet : [GET] /showTweet/configure  ->  D:\RD\showTweeter/tiles/showTweet/backend/routes/configure/get.js
+[2017-10-10 17:32:00.027] [DEBUG] jive-sdk - Creating directory extension_src/public/apps
+[2017-10-10 17:32:00.030] [DEBUG] jive-sdk - Creating directory extension_src/public/tiles
+[2017-10-10 17:32:00.032] [DEBUG] jive-sdk - Copying public to extension_src/public
+[2017-10-10 17:32:00.060] [DEBUG] jive-sdk - Creating directory extension_src/public/services
+[2017-10-10 17:32:00.062] [DEBUG] jive-sdk - Copying public to extension_src/public
+[2017-10-10 17:32:00.087] [DEBUG] jive-sdk - Copying D:\RD\showTweeter/tiles/showTweet/public to extension_src/public/tiles/showTweet
+[2017-10-10 17:32:00.124] [DEBUG] jive-sdk - definitions:
 [
     {
         "displayName": "showTweet",
         "name": "showTweet",
-        "description": "showTweet",
+        "description": "Embed twitter timeline widget in tiles.",
         "style": "CUSTOM_VIEW",
         "displayWidth": "ALL",
         "dataProviderKey": "internal",
@@ -35,110 +59,15 @@
         "view": "/public/tiles/showTweet/view.html"
     }
 ]
-[2017-10-10 17:04:52.688] [DEBUG] jive-sdk - templates:
+[2017-10-10 17:32:00.138] [DEBUG] jive-sdk - templates:
 null
-[2017-10-10 17:04:52.708] [DEBUG] jive-sdk - apps:
+[2017-10-10 17:32:00.157] [DEBUG] jive-sdk - apps:
 []
-[2017-10-10 17:04:52.709] [DEBUG] jive-sdk - storageDefinitions:
+[2017-10-10 17:32:00.158] [DEBUG] jive-sdk - storageDefinitions:
 []
-[2017-10-10 17:04:52.715] [DEBUG] jive-sdk - cartridges:
+[2017-10-10 17:32:00.164] [DEBUG] jive-sdk - cartridges:
 []
-[2017-10-10 17:04:52.721] [DEBUG] jive-sdk - Extension meta: 
-{
-    "package_version": "1.0",
-    "id": "a49d24d2-51bd-40fc-ad8b-9a1458300ea0",
-    "type": "client-app",
-    "name": "showTweet",
-    "description": "Show twitter feed to the user with respective user name",
-    "minimum_version": "0080300000",
-    "icon_16": "extension-16.png",
-    "icon_48": "extension-48.png",
-    "icon_128": "extension-128.png",
-    "released_on": "2017-10-09T07:04:25.385Z",
-    "service_url": "http://localhost",
-    "redirect_url": "%serviceURL%",
-    "releasedOn": "2017-10-09T07:04:25.385Z"
-}
-[2017-10-10 17:04:52.904] [DEBUG] jive-sdk - Zipping extension_src/definition.json to extension.zip  :  definition.json
-[2017-10-10 17:04:52.975] [DEBUG] jive-sdk - Zipping extension_src/meta.json to extension.zip  :  meta.json
-[2017-10-10 17:04:53.039] [DEBUG] jive-sdk - Zipping extension_src/data/eula.html to extension.zip  :  data/eula.html
-[2017-10-10 17:04:53.041] [DEBUG] jive-sdk - Zipping extension_src/data/extension-128.png to extension.zip  :  data/extension-128.png
-[2017-10-10 17:04:53.043] [DEBUG] jive-sdk - Zipping extension_src/data/extension-16.png to extension.zip  :  data/extension-16.png
-[2017-10-10 17:04:53.053] [DEBUG] jive-sdk - Zipping extension_src/data/extension-48.png to extension.zip  :  data/extension-48.png
-[2017-10-10 17:04:53.058] [DEBUG] jive-sdk - Zipping extension_src/data/install_instructions.html to extension.zip  :  data/install_instructions.html
-[2017-10-10 17:04:53.064] [DEBUG] jive-sdk - Zipping extension_src/data/overview.html to extension.zip  :  data/overview.html
-[2017-10-10 17:04:53.070] [DEBUG] jive-sdk - Zipping extension_src/data/privacy_policy.html to extension.zip  :  data/privacy_policy.html
-[2017-10-10 17:04:53.072] [DEBUG] jive-sdk - Zipping extension_src/data/screenshot_1.png to extension.zip  :  data/screenshot_1.png
-[2017-10-10 17:04:53.079] [DEBUG] jive-sdk - Zipping extension_src/data/screenshot_2.png to extension.zip  :  data/screenshot_2.png
-[2017-10-10 17:04:53.083] [DEBUG] jive-sdk - Zipping extension_src/i18n/en.properties to extension.zip  :  i18n/en.properties
-[2017-10-10 17:04:53.086] [DEBUG] jive-sdk - Zipping extension_src/i18n/root.properties to extension.zip  :  i18n/root.properties
-[2017-10-10 17:04:53.092] [DEBUG] jive-sdk - Zipping extension_src/public/favicon.ico to extension.zip  :  public/favicon.ico
-[2017-10-10 17:04:53.107] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/bootstrap.min.js to extension.zip  :  public/javascripts/bootstrap.min.js
-[2017-10-10 17:04:53.108] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/bootstrap-30.min.js to extension.zip  :  public/javascripts/bootstrap-30.min.js
-[2017-10-10 17:04:53.109] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/bootstrap-30.js to extension.zip  :  public/javascripts/bootstrap-30.js
-[2017-10-10 17:04:53.117] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/jQuery-1.10.2.js to extension.zip  :  public/javascripts/jQuery-1.10.2.js
-[2017-10-10 17:04:53.120] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/jquery-1.8.3.js to extension.zip  :  public/javascripts/jquery-1.8.3.js
-[2017-10-10 17:04:53.127] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/jquery.base64.min.js to extension.zip  :  public/javascripts/jquery.base64.min.js
-[2017-10-10 17:04:53.129] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap-30.css to extension.zip  :  public/stylesheets/bootstrap-30.css
-[2017-10-10 17:04:53.137] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap-30.min.css to extension.zip  :  public/stylesheets/bootstrap-30.min.css
-[2017-10-10 17:04:53.138] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap.css to extension.zip  :  public/stylesheets/bootstrap.css
-[2017-10-10 17:04:53.146] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap.min.css to extension.zip  :  public/stylesheets/bootstrap.min.css
-[2017-10-10 17:04:53.148] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/style.css to extension.zip  :  public/stylesheets/style.css
-[2017-10-10 17:04:53.161] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/action.html to extension.zip  :  public/tiles/showTweet/action.html
-[2017-10-10 17:04:53.163] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/configuration.html to extension.zip  :  public/tiles/showTweet/configuration.html
-[2017-10-10 17:04:53.165] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/view.html to extension.zip  :  public/tiles/showTweet/view.html
-[2017-10-10 17:04:53.189] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/javascripts/action.js to extension.zip  :  public/tiles/showTweet/javascripts/action.js
-[2017-10-10 17:04:53.191] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/javascripts/configuration.js to extension.zip  :  public/tiles/showTweet/javascripts/configuration.js
-[2017-10-10 17:04:53.196] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/javascripts/main.js to extension.zip  :  public/tiles/showTweet/javascripts/main.js
-[2017-10-10 17:04:53.205] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/javascripts/view.js to extension.zip  :  public/tiles/showTweet/javascripts/view.js
-[2017-10-10 17:04:53.209] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/stylesheets/main.css to extension.zip  :  public/tiles/showTweet/stylesheets/main.css
-[2017-10-10 17:04:53.296] [INFO] jive-sdk - Updated 2 data file(s): [tileDefinition, jiveExtension]
-[2017-10-10 17:09:14.167] [WARN] jive-sdk - ******************************
-[2017-10-10 17:09:14.170] [WARN] jive-sdk - File persistence is configured.
-[2017-10-10 17:09:14.171] [WARN] jive-sdk - Please note that this should
-[2017-10-10 17:09:14.178] [WARN] jive-sdk - not be used for production!
-[2017-10-10 17:09:14.180] [WARN] jive-sdk - ******************************
-[2017-10-10 17:09:14.187] [DEBUG] jive-sdk - File persistence dir at 'db'
-[2017-10-10 17:09:14.196] [INFO] jive-sdk - Updating definition showTweet
-[2017-10-10 17:09:14.788] [DEBUG] jive-sdk - Route added for showTweet : [GET] /showTweet/configure  ->  D:\RD\showTweeter/tiles/showTweet/backend/routes/configure/get.js
-[2017-10-10 17:09:14.796] [DEBUG] jive-sdk - Creating directory extension_src/public/apps
-[2017-10-10 17:09:14.798] [DEBUG] jive-sdk - Creating directory extension_src/public/tiles
-[2017-10-10 17:09:14.801] [DEBUG] jive-sdk - Copying public to extension_src/public
-[2017-10-10 17:09:14.828] [DEBUG] jive-sdk - Creating directory extension_src/public/services
-[2017-10-10 17:09:14.830] [DEBUG] jive-sdk - Copying public to extension_src/public
-[2017-10-10 17:09:14.851] [DEBUG] jive-sdk - Copying D:\RD\showTweeter/tiles/showTweet/public to extension_src/public/tiles/showTweet
-[2017-10-10 17:09:14.884] [DEBUG] jive-sdk - definitions:
-[
-    {
-        "displayName": "showTweet",
-        "name": "showTweet",
-        "description": "showTweet",
-        "style": "CUSTOM_VIEW",
-        "displayWidth": "ALL",
-        "dataProviderKey": "internal",
-        "pageTypes": [
-            "PLACE",
-            "USER"
-        ],
-        "icons": {
-            "16": "https://pprod.customer-communities.orange-business.com/resources/statics/11788/extension-16.png",
-            "48": "https://pprod.customer-communities.orange-business.com/resources/statics/11788/extension-48.png",
-            "128": "https://pprod.customer-communities.orange-business.com/resources/statics/11788/extension-128.png"
-        },
-        "config": "/public/tiles/showTweet/configuration.html",
-        "action": "/public/tiles/showTweet/action.html",
-        "view": "/public/tiles/showTweet/view.html"
-    }
-]
-[2017-10-10 17:09:14.898] [DEBUG] jive-sdk - templates:
-null
-[2017-10-10 17:09:14.920] [DEBUG] jive-sdk - apps:
-[]
-[2017-10-10 17:09:14.921] [DEBUG] jive-sdk - storageDefinitions:
-[]
-[2017-10-10 17:09:14.927] [DEBUG] jive-sdk - cartridges:
-[]
-[2017-10-10 17:09:14.931] [DEBUG] jive-sdk - Extension meta: 
+[2017-10-10 17:32:00.169] [DEBUG] jive-sdk - Extension meta: 
 {
     "package_version": "1.0",
     "id": "a49d24d2-51bd-40fc-ad8b-9a1458300ea0",
@@ -154,37 +83,37 @@ null
     "redirect_url": "%serviceURL%",
     "releasedOn": "2017-10-09T07:04:25.385Z"
 }
-[2017-10-10 17:09:15.062] [DEBUG] jive-sdk - Zipping extension_src/definition.json to extension.zip  :  definition.json
-[2017-10-10 17:09:15.097] [DEBUG] jive-sdk - Zipping extension_src/meta.json to extension.zip  :  meta.json
-[2017-10-10 17:09:15.123] [DEBUG] jive-sdk - Zipping extension_src/data/eula.html to extension.zip  :  data/eula.html
-[2017-10-10 17:09:15.144] [DEBUG] jive-sdk - Zipping extension_src/data/extension-128.png to extension.zip  :  data/extension-128.png
-[2017-10-10 17:09:15.213] [DEBUG] jive-sdk - Zipping extension_src/data/extension-16.png to extension.zip  :  data/extension-16.png
-[2017-10-10 17:09:15.225] [DEBUG] jive-sdk - Zipping extension_src/data/extension-48.png to extension.zip  :  data/extension-48.png
-[2017-10-10 17:09:15.230] [DEBUG] jive-sdk - Zipping extension_src/data/install_instructions.html to extension.zip  :  data/install_instructions.html
-[2017-10-10 17:09:15.234] [DEBUG] jive-sdk - Zipping extension_src/data/overview.html to extension.zip  :  data/overview.html
-[2017-10-10 17:09:15.240] [DEBUG] jive-sdk - Zipping extension_src/data/privacy_policy.html to extension.zip  :  data/privacy_policy.html
-[2017-10-10 17:09:15.244] [DEBUG] jive-sdk - Zipping extension_src/data/screenshot_1.png to extension.zip  :  data/screenshot_1.png
-[2017-10-10 17:09:15.247] [DEBUG] jive-sdk - Zipping extension_src/data/screenshot_2.png to extension.zip  :  data/screenshot_2.png
-[2017-10-10 17:09:15.258] [DEBUG] jive-sdk - Zipping extension_src/i18n/en.properties to extension.zip  :  i18n/en.properties
-[2017-10-10 17:09:15.261] [DEBUG] jive-sdk - Zipping extension_src/i18n/root.properties to extension.zip  :  i18n/root.properties
-[2017-10-10 17:09:15.270] [DEBUG] jive-sdk - Zipping extension_src/public/favicon.ico to extension.zip  :  public/favicon.ico
-[2017-10-10 17:09:15.283] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/bootstrap-30.min.js to extension.zip  :  public/javascripts/bootstrap-30.min.js
-[2017-10-10 17:09:15.286] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/bootstrap-30.js to extension.zip  :  public/javascripts/bootstrap-30.js
-[2017-10-10 17:09:15.292] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/bootstrap.min.js to extension.zip  :  public/javascripts/bootstrap.min.js
-[2017-10-10 17:09:15.296] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/jQuery-1.10.2.js to extension.zip  :  public/javascripts/jQuery-1.10.2.js
-[2017-10-10 17:09:15.303] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/jquery-1.8.3.js to extension.zip  :  public/javascripts/jquery-1.8.3.js
-[2017-10-10 17:09:15.307] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/jquery.base64.min.js to extension.zip  :  public/javascripts/jquery.base64.min.js
-[2017-10-10 17:09:15.312] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap-30.css to extension.zip  :  public/stylesheets/bootstrap-30.css
-[2017-10-10 17:09:15.320] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap-30.min.css to extension.zip  :  public/stylesheets/bootstrap-30.min.css
-[2017-10-10 17:09:15.323] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap.css to extension.zip  :  public/stylesheets/bootstrap.css
-[2017-10-10 17:09:15.330] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap.min.css to extension.zip  :  public/stylesheets/bootstrap.min.css
-[2017-10-10 17:09:15.334] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/style.css to extension.zip  :  public/stylesheets/style.css
-[2017-10-10 17:09:15.344] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/action.html to extension.zip  :  public/tiles/showTweet/action.html
-[2017-10-10 17:09:15.346] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/configuration.html to extension.zip  :  public/tiles/showTweet/configuration.html
-[2017-10-10 17:09:15.357] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/view.html to extension.zip  :  public/tiles/showTweet/view.html
-[2017-10-10 17:09:15.361] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/javascripts/configuration.js to extension.zip  :  public/tiles/showTweet/javascripts/configuration.js
-[2017-10-10 17:09:15.363] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/javascripts/action.js to extension.zip  :  public/tiles/showTweet/javascripts/action.js
-[2017-10-10 17:09:15.366] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/javascripts/main.js to extension.zip  :  public/tiles/showTweet/javascripts/main.js
-[2017-10-10 17:09:15.377] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/javascripts/view.js to extension.zip  :  public/tiles/showTweet/javascripts/view.js
-[2017-10-10 17:09:15.379] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/stylesheets/main.css to extension.zip  :  public/tiles/showTweet/stylesheets/main.css
-[2017-10-10 17:09:15.550] [INFO] jive-sdk - Updated 2 data file(s): [tileDefinition, jiveExtension]
+[2017-10-10 17:32:00.311] [DEBUG] jive-sdk - Zipping extension_src/definition.json to extension.zip  :  definition.json
+[2017-10-10 17:32:00.314] [DEBUG] jive-sdk - Zipping extension_src/meta.json to extension.zip  :  meta.json
+[2017-10-10 17:32:00.364] [DEBUG] jive-sdk - Zipping extension_src/data/eula.html to extension.zip  :  data/eula.html
+[2017-10-10 17:32:00.389] [DEBUG] jive-sdk - Zipping extension_src/data/extension-128.png to extension.zip  :  data/extension-128.png
+[2017-10-10 17:32:00.427] [DEBUG] jive-sdk - Zipping extension_src/data/extension-16.png to extension.zip  :  data/extension-16.png
+[2017-10-10 17:32:00.463] [DEBUG] jive-sdk - Zipping extension_src/data/extension-48.png to extension.zip  :  data/extension-48.png
+[2017-10-10 17:32:00.481] [DEBUG] jive-sdk - Zipping extension_src/data/install_instructions.html to extension.zip  :  data/install_instructions.html
+[2017-10-10 17:32:00.491] [DEBUG] jive-sdk - Zipping extension_src/data/overview.html to extension.zip  :  data/overview.html
+[2017-10-10 17:32:00.494] [DEBUG] jive-sdk - Zipping extension_src/data/privacy_policy.html to extension.zip  :  data/privacy_policy.html
+[2017-10-10 17:32:00.503] [DEBUG] jive-sdk - Zipping extension_src/data/screenshot_1.png to extension.zip  :  data/screenshot_1.png
+[2017-10-10 17:32:00.506] [DEBUG] jive-sdk - Zipping extension_src/data/screenshot_2.png to extension.zip  :  data/screenshot_2.png
+[2017-10-10 17:32:00.509] [DEBUG] jive-sdk - Zipping extension_src/i18n/en.properties to extension.zip  :  i18n/en.properties
+[2017-10-10 17:32:00.515] [DEBUG] jive-sdk - Zipping extension_src/i18n/root.properties to extension.zip  :  i18n/root.properties
+[2017-10-10 17:32:00.518] [DEBUG] jive-sdk - Zipping extension_src/public/favicon.ico to extension.zip  :  public/favicon.ico
+[2017-10-10 17:32:00.541] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/bootstrap-30.js to extension.zip  :  public/javascripts/bootstrap-30.js
+[2017-10-10 17:32:00.544] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/bootstrap-30.min.js to extension.zip  :  public/javascripts/bootstrap-30.min.js
+[2017-10-10 17:32:00.547] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/bootstrap.min.js to extension.zip  :  public/javascripts/bootstrap.min.js
+[2017-10-10 17:32:00.555] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/jQuery-1.10.2.js to extension.zip  :  public/javascripts/jQuery-1.10.2.js
+[2017-10-10 17:32:00.557] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/jquery-1.8.3.js to extension.zip  :  public/javascripts/jquery-1.8.3.js
+[2017-10-10 17:32:00.564] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/jquery.base64.min.js to extension.zip  :  public/javascripts/jquery.base64.min.js
+[2017-10-10 17:32:00.567] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap-30.css to extension.zip  :  public/stylesheets/bootstrap-30.css
+[2017-10-10 17:32:00.576] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap-30.min.css to extension.zip  :  public/stylesheets/bootstrap-30.min.css
+[2017-10-10 17:32:00.579] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap.css to extension.zip  :  public/stylesheets/bootstrap.css
+[2017-10-10 17:32:00.590] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap.min.css to extension.zip  :  public/stylesheets/bootstrap.min.css
+[2017-10-10 17:32:00.596] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/style.css to extension.zip  :  public/stylesheets/style.css
+[2017-10-10 17:32:00.602] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/action.html to extension.zip  :  public/tiles/showTweet/action.html
+[2017-10-10 17:32:00.605] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/configuration.html to extension.zip  :  public/tiles/showTweet/configuration.html
+[2017-10-10 17:32:00.608] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/view.html to extension.zip  :  public/tiles/showTweet/view.html
+[2017-10-10 17:32:00.628] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/javascripts/configuration.js to extension.zip  :  public/tiles/showTweet/javascripts/configuration.js
+[2017-10-10 17:32:00.631] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/javascripts/action.js to extension.zip  :  public/tiles/showTweet/javascripts/action.js
+[2017-10-10 17:32:00.634] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/javascripts/main.js to extension.zip  :  public/tiles/showTweet/javascripts/main.js
+[2017-10-10 17:32:00.644] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/javascripts/view.js to extension.zip  :  public/tiles/showTweet/javascripts/view.js
+[2017-10-10 17:32:00.646] [DEBUG] jive-sdk - Zipping extension_src/public/tiles/showTweet/stylesheets/main.css to extension.zip  :  public/tiles/showTweet/stylesheets/main.css
+[2017-10-10 17:32:00.729] [INFO] jive-sdk - Updated 2 data file(s): [tileDefinition, jiveExtension]
